@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite for Swag Labs">
+
+	<listeners>
+		<listener class-name="SwagLabs.Utility.ExtentReporter" />
+	</listeners>
+
+
+	<test name="Regression Tests">
+		<classes>
+			<class name="SwagLabs.TestCases.CartPageTest"></class>
+			<class name="SwagLabs.TestCases.CheckoutPageTest"></class>
+			<class name="SwagLabs.TestCases.HomePageTest"></class>
+			<class name="SwagLabs.TestCases.LoginPageTest"></class>
+
+		</classes>
+	</test>
+</suite>
